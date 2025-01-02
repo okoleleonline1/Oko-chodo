@@ -274,7 +274,7 @@ bgmi_cooldown = {}
 
 COOLDOWN_TIME =0
 
-attack_running = True 
+attack_running = False 
 
 # Handler for /attack command
 @bot.message_handler(commands=['attack'])
