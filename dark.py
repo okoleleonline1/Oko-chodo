@@ -6,7 +6,7 @@ from keep_alive import keep_alive
 keep_alive()
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7385947182:AAHKalWHD-w3V5SqjTXc2e45SjLz-171He0')
+bot = telebot.TeleBot('7688551896:AAFQDF2a-VvvyYd9krfo6g9VPqS2R2hXZ5s')
 
 # Admin user IDs
 admin_id = {"5344691638"}
@@ -274,7 +274,7 @@ bgmi_cooldown = {}
 
 COOLDOWN_TIME =0
 
-attack_running = False
+attack_running = True 
 
 # Handler for /attack command
 @bot.message_handler(commands=['attack'])
